@@ -7,7 +7,7 @@
 
 # THANKS
 
-    <name> -- <twitter>
+    H5BP -- @h5bp
 
 # SITE
 
