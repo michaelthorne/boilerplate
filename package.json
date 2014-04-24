@@ -1,0 +1,13 @@
+{
+    "name": "boilerplate",
+    "version": "0.0.0",
+    "description": "HTML5 Boilerplate",
+    "author": "Michael Thorne",
+    "license": "MIT",
+    "devDependencies": {
+        "grunt": "~0.4.4",
+        "grunt-contrib-csslint": "~0.2.0",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-html-validation": "~0.1.16"
+    }
+}
