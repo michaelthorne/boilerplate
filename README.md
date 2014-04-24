@@ -14,6 +14,21 @@ This project uses [LESS](http://lesscss.org/):
     - `normalize.less`
     - `print.less`
 
+Features
+-
+
+- **Breakpoints**
+    - The following variables are provided for use in media queries:
+    - `@bp-tiny:   40em; /* 40 * 16 =  640px */`
+    - `@bp-small:  48em; /* 48 x 16 =  768px */`
+    - `@bp-medium: 64em; /* 64 x 16 = 1024px */`
+    - `@bp-large:  90em; /* 90 x 16 = 1440px */`
+    - These are defined in: `inc/breakpoints.less`
+- **Colors**
+    - An example of a color variable that is provided:
+    - `@color-black: #000;`
+    - These are defined in: `inc/colors.less`
+
 Components
 -
 
