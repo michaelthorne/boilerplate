@@ -4,10 +4,10 @@ HTML5 Boilerplate
 Getting Started
 -
 
-1. `git clone git@github.com:michaelthorne/boilerplate.git`
-2. `cd boilerplate`
-3. `npm install`
-4. `grunt serve`
+1. Clone the repository: `git clone git@github.com:michaelthorne/boilerplate.git`
+2. Change to the directory you cloned the repository into: `cd boilerplate`
+3. Run the node install command so that the required Grunt plugins get downloaded: `npm install`
+4. Start the Grunt connect server and the watch task: `grunt serve`
 
 Features
 -
