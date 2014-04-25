@@ -4,7 +4,10 @@ HTML5 Boilerplate
 Getting Started
 -
 
-
+1. `git clone git@github.com:michaelthorne/boilerplate.git`
+2. `cd boilerplate`
+3. `npm install`
+4. `grunt serve`
 
 Features
 -
@@ -17,11 +20,12 @@ Features
     - `@bp-large:  90em; /* 90 x 16 = 1440px */`
     - These are defined in: `inc/breakpoints.less`
 - **Colors**
-    - An example of a color variable that is provided:
     - `@color-black: #000;`
+    - `@color-grey-dark: #111;`
+    - `@color-white: #fff;`
     - These are defined in: `inc/colors.less`
 - **Helpers**
-    - `.clearfix`
+    - `.clearfix // Contain floats`
     - `.hidden // Hide from screenreaders and browsers`
     - `.visuallyhidden // Hide from screenreaders only`
     - `.invisible // Hide visually and from screenreaders, but maintain layout`
