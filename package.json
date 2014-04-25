@@ -4,6 +4,10 @@
     "description": "HTML5 Boilerplate",
     "author": "Michael Thorne",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/michaelthorne/boilerplate.git"
+    },
     "devDependencies": {
         "grunt": "~0.4.4",
         "grunt-contrib-csslint": "~0.2.0",
