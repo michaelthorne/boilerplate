@@ -1,13 +1,21 @@
 HTML5 Boilerplate
 =
 
+Requirements
+-
+
+Ensure that the following are installed on your computer:
+
+1. [Git](http://git-scm.com/)
+2. [Node.js](http://nodejs.org/)
+
 Getting Started
 -
 
 1. Clone the repository: `git clone git@github.com:michaelthorne/boilerplate.git`
-2. Change to the directory you cloned the repository into: `cd boilerplate`
-3. Run the node install command so that the required Grunt plugins get downloaded: `npm install`
-4. Start the Grunt connect server and the watch task: `grunt serve`
+2. Change to the directory you cloned the repository into: e.g. `cd boilerplate`
+3. Run the node install command which downloads the required Grunt plugins: `npm install`
+4. Start the local server and watch task: `grunt serve`
 
 Features
 -
