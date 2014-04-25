@@ -4,15 +4,18 @@ HTML5 Boilerplate
 Requirements
 -
 
-This project uses [LESS](http://lesscss.org/):
+Ensure that the following are installed on your computer:
 
-- Compile `assets/less/main.less` and output it to `assets/css/main.css`
-- **main.less** imports the following files:
-    - `inc/breakpoints.less`
-    - `inc/colors.less`
-    - `inc/helpers.less`
-    - `normalize.less`
-    - `print.less`
+1. [Git](http://git-scm.com/)
+2. [Node.js](http://nodejs.org/)
+
+Getting Started
+-
+
+1. Clone the repository: `git clone git@github.com:michaelthorne/boilerplate.git`
+2. Change to the directory you cloned the repository into: e.g. `cd boilerplate`
+3. Run the node install command which downloads the required Grunt plugins: `npm install`
+4. Start the local server and watch task: `grunt serve`
 
 Features
 -
@@ -25,9 +28,19 @@ Features
     - `@bp-large:  90em; /* 90 x 16 = 1440px */`
     - These are defined in: `inc/breakpoints.less`
 - **Colors**
-    - An example of a color variable that is provided:
     - `@color-black: #000;`
+    - `@color-grey-dark: #111;`
+    - `@color-white: #fff;`
     - These are defined in: `inc/colors.less`
+- **Helpers**
+    - `.clearfix // Contain floats`
+    - `.hidden // Hide from screenreaders and browsers`
+    - `.visuallyhidden // Hide from screenreaders only`
+    - `.invisible // Hide visually and from screenreaders, but maintain layout`
+    - `.hide-small // Hide on small screens`
+    - `.hide-medium // Hide on medium screens`
+    - `.hide-large // Hide on large screens`
+    - These are defined in: `inc/helpers.less`
 
 Components
 -
