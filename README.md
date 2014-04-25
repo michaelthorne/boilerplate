@@ -1,18 +1,10 @@
 HTML5 Boilerplate
 =
 
-Requirements
+Getting Started
 -
 
-This project uses [LESS](http://lesscss.org/):
 
-- Compile `assets/less/main.less` and output it to `assets/css/main.css`
-- **main.less** imports the following files:
-    - `inc/breakpoints.less`
-    - `inc/colors.less`
-    - `inc/helpers.less`
-    - `normalize.less`
-    - `print.less`
 
 Features
 -
@@ -28,6 +20,15 @@ Features
     - An example of a color variable that is provided:
     - `@color-black: #000;`
     - These are defined in: `inc/colors.less`
+- **Helpers**
+    - `.clearfix`
+    - `.hidden // Hide from screenreaders and browsers`
+    - `.visuallyhidden // Hide from screenreaders only`
+    - `.invisible // Hide visually and from screenreaders, but maintain layout`
+    - `.hide-small // Hide on small screens`
+    - `.hide-medium // Hide on medium screens`
+    - `.hide-large // Hide on large screens`
+    - These are defined in: `inc/helpers.less`
 
 Components
 -
