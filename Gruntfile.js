@@ -8,7 +8,8 @@ module.exports = function (grunt)
                     hostname: 'localhost',
                     livereload: true,
                     open: true,
-                    port: 1337
+                    port: 1337,
+                    useAvailablePort: true
                 }
             }
         },
