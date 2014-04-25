@@ -12,6 +12,7 @@
  * BASE
  * GRID
  * ELEMENTS
+ * .....Anchors
  * .....Headings
  * .....Horizontal Rule
  * CONTAINERS
@@ -45,7 +46,7 @@
  */
 
 html {
-    color: @color-grey-dark;
+    color: @color-black;
     font: 100%/1.6 sans-serif; /* 1 */
     overflow-y: scroll; /* 2 */
 }
@@ -58,13 +59,13 @@ html {
 
 ::-moz-selection {
     background: @color-aqua;
-    color: @color-white-dark;
+    color: @color-white;
     text-shadow: none;
 }
 
 ::selection {
     background: @color-aqua;
-    color: @color-white-dark;
+    color: @color-white;
     text-shadow: none;
 }
 
@@ -186,6 +187,24 @@ video {
 /* -------------------------------------------------------------------------- *\
    $ELEMENTS
 \* -------------------------------------------------------------------------- */
+
+/* ==========================================================================
+   $Anchors
+   ========================================================================== */
+
+a {
+    color: @color-blue;
+    transition: color .25s;
+
+    &:focus,
+    &:hover {
+        color: @color-navy;
+    }
+
+    &:visited {
+        color: @color-navy;
+    }
+}
 
 /* ==========================================================================
    $Headings
