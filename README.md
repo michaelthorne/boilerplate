@@ -17,6 +17,23 @@ Getting Started
 3. Run the node install command which downloads the required Grunt plugins: `npm install`
 4. Start the local server and watch task: `grunt serve`
 
+Structure
+-
+```
+assets/
+      /base/
+           /base.less
+           /grid.less
+           /helpers.less
+           /print.less
+      /generic/
+           /breakpoints.less
+           /colors.less
+           /mixins.less
+           /normalize.less
+      /style.less
+```
+
 Features
 -
 
@@ -26,12 +43,12 @@ Features
     - `@bp-small:  48em; /* 48 x 16 =  768px */`
     - `@bp-medium: 64em; /* 64 x 16 = 1024px */`
     - `@bp-large:  90em; /* 90 x 16 = 1440px */`
-    - These are defined in: `inc/breakpoints.less`
+    - These are defined in: `less/generic/breakpoints.less`
 - **Colors**
     - `@color-black: #000;`
     - `@color-grey-dark: #111;`
     - `@color-white: #fff;`
-    - These are defined in: `inc/colors.less`
+    - These are defined in: `less/generic/colors.less`
 - **Helpers**
     - `.clearfix // Contain floats`
     - `.hidden // Hide from screenreaders and browsers`
@@ -40,7 +57,11 @@ Features
     - `.hide-small // Hide on small screens`
     - `.hide-medium // Hide on medium screens`
     - `.hide-large // Hide on large screens`
-    - These are defined in: `inc/helpers.less`
+    - These are defined in: `less/base/helpers.less`
+- **Mixins**
+    - `.transform(@function)`
+    - `.transition(@property, @duration, @timing-function: ease, @delay: 0)`
+    - These are defined in: `less\generic\mixins.less`
 
 Components
 -
@@ -52,7 +73,7 @@ Components
 Polyfills
 -
 
-The following are included for **IE8** and below:
+The following scripts are included for **IE8** and below:
 - [html5shiv](https://github.com/aFarkas/html5shiv)
 - [Respond.js](https://github.com/scottjehl/Respond)
 - [matchMedia.js](https://github.com/paulirish/matchMedia.js/)
