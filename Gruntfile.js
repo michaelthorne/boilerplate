@@ -27,7 +27,7 @@ module.exports = function (grunt)
         less: {
             build: {
                 files: {
-                    'assets/css/main.css': 'assets/less/main.less'
+                    'assets/css/style.css': 'assets/less/style.less'
                 },
                 options: {
                     cleancss: true

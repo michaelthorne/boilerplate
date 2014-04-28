@@ -1,3 +1,7 @@
+/**
+ * HELPERS
+ */
+
 /* -------------------------------------------------------------------------- *\
    $TABLE OF CONTENTS
 \* -------------------------------------------------------------------------- */
@@ -5,6 +9,8 @@
 /**
  * CLEARFIX
  * HIDDEN
+ * MEDIA QUERIES
+ * TEXT
  * VISIBILITY
  */
 
@@ -35,6 +41,18 @@
 
 .clearfix:after {
     clear: both;
+}
+
+.clearfix() {
+    .clearfix:before,
+    .clearfix:after {
+        content: " ";
+        display: table;
+    }
+
+    .clearfix:after {
+        clear: both;
+    }
 }
 
 
@@ -83,6 +101,13 @@
     width: auto;
 }
 
+
+
+
+/* -------------------------------------------------------------------------- *\
+   $MEDIA QUERIES
+\* -------------------------------------------------------------------------- */
+
 /**
  * Hide on small screens
  */
@@ -124,6 +149,22 @@
 
 
 /* -------------------------------------------------------------------------- *\
+   $TEXT
+\* -------------------------------------------------------------------------- */
+
+/**
+ * Alignment
+ */
+
+.align-right  { text-align: right; }
+.align-center { text-align: center; }
+.align-left   { text-align: left; }
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
    $VISIBILITY
 \* -------------------------------------------------------------------------- */
 
@@ -131,6 +172,4 @@
  * Hide visually and from screenreaders, but maintain layout
  */
 
-.invisible {
-    visibility: hidden;
-}
+.invisible { visibility: hidden; }

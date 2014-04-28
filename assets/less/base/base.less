@@ -1,0 +1,53 @@
+/* -------------------------------------------------------------------------- *\
+   $BASE
+\* -------------------------------------------------------------------------- */
+
+/**
+ * Apply a natural box layout model to all elements
+ */
+
+*,
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+/**
+ * 1. Set default font family, size and line height
+ * 2. Keep the page centred in all browsers regardless of content height
+ */
+
+html {
+    color: @color-black;
+    font: 100%/1.6 sans-serif; /* 1 */
+    overflow-y: scroll; /* 2 */
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: @color-aqua;
+    color: @color-white;
+    text-shadow: none;
+}
+
+::selection {
+    background: @color-aqua;
+    color: @color-white;
+    text-shadow: none;
+}
+
+/**
+ * Remove the gap between images, videos, audio and canvas and the bottom of their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
