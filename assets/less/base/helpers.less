@@ -8,9 +8,11 @@
 
 /**
  * CLEARFIX
+ * COLORS
  * DISPLAY
  * EMBED
  * FLOATS
+ * FONTS
  * HIDDEN
  * TEXT
  * VISIBILITY
@@ -45,17 +47,59 @@
     clear: both;
 }
 
-.clearfix() {
-    &:before,
-    &:after {
-        content: " ";
-        display: table;
-    }
 
-    &:after {
-        clear: both;
-    }
-}
+
+
+
+/* -------------------------------------------------------------------------- *\
+   $COLORS
+\* -------------------------------------------------------------------------- */
+
+/**
+ * Background
+ */
+
+.bg-navy       { background-color: @color-navy; }
+.bg-blue       { background-color: @color-blue; }
+.bg-aqua       { background-color: @color-aqua; }
+.bg-teal       { background-color: @color-teal; }
+.bg-olive      { background-color: @color-olive; }
+.bg-green      { background-color: @color-green; }
+.bg-lime       { background-color: @color-lime; }
+.bg-yellow     { background-color: @color-yellow; }
+.bg-orange     { background-color: @color-orange; }
+.bg-red        { background-color: @color-red; }
+.bg-fuchsia    { background-color: @color-fuchsia; }
+.bg-purple     { background-color: @color-purple; }
+.bg-maroon     { background-color: @color-maroon; }
+.bg-white      { background-color: @color-white; }
+.bg-white-dark { background-color: @color-white-dark; }
+.bg-silver     { background-color: @color-silver; }
+.bg-gray       { background-color: @color-gray; }
+.bg-black      { background-color: @color-black; }
+
+/**
+ * Foreground
+ */
+
+.navy          { color: @color-navy; }
+.blue          { color: @color-blue; }
+.aqua          { color: @color-aqua; }
+.teal          { color: @color-teal; }
+.olive         { color: @color-olive; }
+.green         { color: @color-green; }
+.lime          { color: @color-lime; }
+.yellow        { color: @color-yellow; }
+.orange        { color: @color-orange; }
+.red           { color: @color-red; }
+.fuchsia       { color: @color-fuchsia; }
+.purple        { color: @color-purple; }
+.maroon        { color: @color-maroon; }
+.white         { color: @color-white; }
+.white-dark    { color: @color-white-dark; }
+.silver        { color: @color-silver; }
+.gray          { color: @color-gray; }
+.black         { color: @color-black; }
 
 
 
@@ -157,6 +201,21 @@
     float: right !important;
 }
 
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   $FONTS
+\* -------------------------------------------------------------------------- */
+
+/**
+ * Secondary Font
+ */
+
+.font-secondary {
+    font-family: @font-secondary;
+}
 
 
 
