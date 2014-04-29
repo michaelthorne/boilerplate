@@ -8,8 +8,10 @@
 
 /**
  * CLEARFIX
+ * DISPLAY
+ * EMBED
+ * FLOATS
  * HIDDEN
- * MEDIA QUERIES
  * TEXT
  * VISIBILITY
  */
@@ -54,6 +56,107 @@
         clear: both;
     }
 }
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   $DISPLAY
+\* -------------------------------------------------------------------------- */
+
+/**
+ * Small Screens
+ */
+
+@media all and (max-width: @bp-medium) {
+
+    .hide-small {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+/**
+ * Medium Screens
+ */
+
+@media all and (min-width: @bp-medium) and (max-width: @bp-large) {
+
+    .hide-medium {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+/**
+ * Large Screens
+ */
+
+@media all and (min-width: @bp-large) {
+
+    .hide-large {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   $EMBED
+\* -------------------------------------------------------------------------- */
+
+/**
+ * Embed Responsively: http://embedresponsively.com/
+ */
+
+.embed-responsive {
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+
+    embed,
+    iframe,
+    object {
+        border: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* -------------------------------------------------------------------------- *\
+   $FLOATS
+\* -------------------------------------------------------------------------- */
+
+/**
+ * Pull Left
+ */
+
+.pull-left {
+    float: left !important;
+}
+
+/**
+ * Pull Right
+ */
+
+.pull-right {
+    float: right !important;
+}
+
 
 
 
@@ -104,49 +207,6 @@
 
 
 
-/* -------------------------------------------------------------------------- *\
-   $MEDIA QUERIES
-\* -------------------------------------------------------------------------- */
-
-/**
- * Hide on small screens
- */
-
-.hide-small {
-
-    @media all and (max-width: @bp-medium) {
-        display: none !important;
-        visibility: hidden !important;
-    }
-}
-
-/**
- * Hide on medium screens
- */
-
-.hide-medium {
-
-    @media all and (min-width: @bp-medium) and (max-width: @bp-large) {
-        display: none !important;
-        visibility: hidden !important;
-    }
-}
-
-/**
- * Hide on large screens
- */
-
-.hide-large {
-
-    @media all and (min-width: @bp-large) {
-        display: none !important;
-        visibility: hidden !important;
-    }
-}
-
-
-
-
 
 /* -------------------------------------------------------------------------- *\
    $TEXT
@@ -159,6 +219,14 @@
 .align-right  { text-align: right; }
 .align-center { text-align: center; }
 .align-left   { text-align: left; }
+
+/**
+ * Transform
+ */
+
+.transform-uppercase  { text-transform: uppercase; }
+.transform-lowercase  { text-transform: lowercase; }
+.transform-capitalize { text-transform: capitalize; }
 
 
 
