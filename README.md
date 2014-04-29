@@ -43,12 +43,12 @@ Features
     - `@bp-small:  48em; /* 48 x 16 =  768px */`
     - `@bp-medium: 64em; /* 64 x 16 = 1024px */`
     - `@bp-large:  90em; /* 90 x 16 = 1440px */`
-    - These are defined in: `less/generic/breakpoints.less`
+    - These are defined in: `less/generic/variables.less`
 - **Colors**
     - `@color-black: #000;`
     - `@color-grey-dark: #111;`
     - `@color-white: #fff;`
-    - These are defined in: `less/generic/colors.less`
+    - These are defined in: `less/generic/variables.less`
 - **Helpers**
     - `.clearfix // Contain floats`
     - `.hidden // Hide from screenreaders and browsers`
