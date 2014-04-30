@@ -41,7 +41,7 @@ Features
 - **Helpers**
     - `less/base/helpers.less`
 - **Mixins**
-    - `less\generic\mixins.less`
+    - `less/generic/mixins.less`
 
 Components
 -
