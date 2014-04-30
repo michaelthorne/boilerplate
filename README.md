@@ -17,51 +17,31 @@ Getting Started
 3. Run the node install command which downloads the required Grunt plugins: `npm install`
 4. Start the local server and watch task: `grunt serve`
 
-Structure
+LESS Structure
 -
 ```
-assets/
-      /base/
-           /base.less
-           /grid.less
-           /helpers.less
-           /print.less
-      /generic/
-           /breakpoints.less
-           /colors.less
-           /mixins.less
-           /normalize.less
-      /style.less
+less/
+     base/
+        base.less
+        grid.less
+        helpers.less
+        print.less
+     generic/
+        mixins.less
+        normalize.less
+        variables.less
+     style.less
 ```
 
 Features
 -
 
-- **Breakpoints**
-    - The following variables are provided for use in media queries:
-    - `@bp-tiny:   40em; /* 40 * 16 =  640px */`
-    - `@bp-small:  48em; /* 48 x 16 =  768px */`
-    - `@bp-medium: 64em; /* 64 x 16 = 1024px */`
-    - `@bp-large:  90em; /* 90 x 16 = 1440px */`
-    - These are defined in: `less/generic/variables.less`
-- **Colors**
-    - `@color-black: #000;`
-    - `@color-grey-dark: #111;`
-    - `@color-white: #fff;`
-    - These are defined in: `less/generic/variables.less`
+- **Breakpoints, Colors, Fonts**
+    - `less/generic/variables.less`
 - **Helpers**
-    - `.clearfix // Contain floats`
-    - `.hidden // Hide from screenreaders and browsers`
-    - `.visuallyhidden // Hide from screenreaders only`
-    - `.invisible // Hide visually and from screenreaders, but maintain layout`
-    - `.hide-small // Hide on small screens`
-    - `.hide-medium // Hide on medium screens`
-    - `.hide-large // Hide on large screens`
-    - These are defined in: `less/base/helpers.less`
+    - `less/base/helpers.less`
 - **Mixins**
-    - `.transform(@function)`
-    - `.transition(@property, @duration, @timing-function: ease, @delay: 0)`
-    - These are defined in: `less\generic\mixins.less`
+    - `less\generic\mixins.less`
 
 Components
 -
