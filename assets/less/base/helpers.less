@@ -10,12 +10,15 @@
  * CLEARFIX
  * COLORS
  * DISPLAY
+ * .....Hidden
+ * .....Invisible
+ * .....Media Queries
  * EMBED
  * FLOATS
- * FONTS
- * HIDDEN
+ * FONT
+ * .....Family
+ * .....Weight
  * TEXT
- * VISIBILITY
  */
 
 
@@ -109,6 +112,71 @@
    $DISPLAY
 \* -------------------------------------------------------------------------- */
 
+/* ==========================================================================
+   $Hidden
+   ========================================================================== */
+
+/**
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/**
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/**
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+
+
+
+
+/* ==========================================================================
+   $Invisible
+   ========================================================================== */
+
+/**
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible { visibility: hidden; }
+
+
+
+
+
+/* ==========================================================================
+   $Media Queries
+   ========================================================================== */
+
 /**
  * Small Screens
  */
@@ -185,83 +253,34 @@
    $FLOATS
 \* -------------------------------------------------------------------------- */
 
-/**
- * Pull Left
- */
-
-.pull-left {
-    float: left !important;
-}
-
-/**
- * Pull Right
- */
-
-.pull-right {
-    float: right !important;
-}
+.pull-left  { float: left !important; }
+.pull-right { float: right !important; }
 
 
 
 
 
 /* -------------------------------------------------------------------------- *\
-   $FONTS
+   $FONT
 \* -------------------------------------------------------------------------- */
 
-/**
- * Secondary Font
- */
+/* ==========================================================================
+   $Family
+   ========================================================================== */
 
-.font-secondary {
-    font-family: @font-secondary;
-}
+.font-secondary { font-family: @font-secondary; }
 
 
 
 
-/* -------------------------------------------------------------------------- *\
-   $HIDDEN
-\* -------------------------------------------------------------------------- */
 
-/**
- * Hide from both screenreaders and browsers: h5bp.com/u
- */
+/* ==========================================================================
+   $Weight
+   ========================================================================== */
 
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-/**
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-/**
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
+.weight-bold      { font-weight: 700; }
+.weight-semi-bold { font-weight: 600; }
+.weight-normal    { font-weight: 400; }
 
 
 
@@ -271,17 +290,21 @@
    $TEXT
 \* -------------------------------------------------------------------------- */
 
-/**
- * Alignment
- */
+/* ==========================================================================
+   $Align
+   ========================================================================== */
 
 .align-right  { text-align: right; }
 .align-center { text-align: center; }
 .align-left   { text-align: left; }
 
-/**
- * Transform
- */
+
+
+
+
+/* ==========================================================================
+   $Transform
+   ========================================================================== */
 
 .transform-uppercase  { text-transform: uppercase; }
 .transform-lowercase  { text-transform: lowercase; }
@@ -290,13 +313,3 @@
 
 
 
-
-/* -------------------------------------------------------------------------- *\
-   $VISIBILITY
-\* -------------------------------------------------------------------------- */
-
-/**
- * Hide visually and from screenreaders, but maintain layout
- */
-
-.invisible { visibility: hidden; }
