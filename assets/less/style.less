@@ -65,38 +65,33 @@ a {
    $Headings
    ========================================================================== */
 
-h1, .h1 {
-    font-size: 3.75em; /* 60 / 16 */
-    .heading();
+h1, .alpha {
+    .heading(3.75em);   /* 60 / 16 */
 }
 
-h2, .h2 {
-    font-size: 3em; /* 48 / 16 */
-    .heading();
+h2, .beta {
+    .heading(3em);      /* 48 / 16 */
 }
 
-h3, .h3 {
-    font-size: 2.25em; /* 36 / 16 */
-    .heading();
+h3, .gamma {
+    .heading(2.25em);   /* 36 / 16 */
 }
 
-h4, .h4 {
-    font-size: 1.5em; /* 24 / 16 */
-    .heading();
+h4, .delta {
+    .heading(1.5em);    /* 24 / 16 */
 }
 
-h5, .h5 {
-    font-size: 1.313em; /* 21 / 16 */
-    .heading();
+h5, .epsilon {
+    .heading(1.313em);  /* 21 / 16 */
 }
 
-h6, .h6 {
-    font-size: 1.125em; /* 18 / 16 */
-    .heading();
+h6, .zeta {
+    .heading(1.125em);  /* 18 / 16 */
 }
 
-.heading() {
-    line-height: 1;
+.heading(@font-size) {
+    font-size: @font-size;
+    line-height: 1; // Prevent huge spaces when a heading wraps onto two lines
     margin-top: 0;
     margin-bottom: 0.5em;
 }
