@@ -90,10 +90,14 @@ h6, .zeta {
 }
 
 .heading(@font-size) {
-    font-size: @font-size;
-    line-height: 1; // Prevent huge spaces when a heading wraps onto two lines
+    font-size: @font-size / 1.125;
+    line-height: 1.1;
     margin-top: 0;
     margin-bottom: 0.5em;
+
+    @media all and (min-width: @bp-tiny) {
+        font-size: @font-size;
+    }
 }
 
 
