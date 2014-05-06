@@ -53,7 +53,7 @@ Components
 Polyfills
 -
 
-The following scripts are included for **IE8** and below:
+The following scripts are included for **IE9** and below:
 - [html5shiv](https://github.com/aFarkas/html5shiv)
 - [Respond.js](https://github.com/scottjehl/Respond)
 - [matchMedia.js](https://github.com/paulirish/matchMedia.js/)
