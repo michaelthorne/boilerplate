@@ -21,6 +21,7 @@
     Paul Irish -- @paul_irish
     Roger Johansson -- @rogerjohansson
     Scott Jehl -- @scottjehl
+    <name> -- <twitter>
 
 # SITE
 
