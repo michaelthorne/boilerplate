@@ -6,8 +6,8 @@ Requirements
 
 Ensure that the following are installed on your computer:
 
-1. [Git](http://git-scm.com/)
-2. [Node.js](http://nodejs.org/)
+1. [Git](http://git-scm.com)
+2. [Node.js](http://nodejs.org)
 
 Getting Started
 -
@@ -46,9 +46,9 @@ Features
 Components
 -
 
-- [Normalize.css](http://necolas.github.io/normalize.css/)
-- [jQuery](http://jquery.com/)
-- [Font Awesome](http://fontawesome.io/)
+- [Normalize.css](http://necolas.github.io/normalize.css)
+- [jQuery](http://jquery.com)
+- [Font Awesome](http://fontawesome.io)
 
 Polyfills
 -
@@ -56,9 +56,9 @@ Polyfills
 The following scripts are included for **IE9** and below:
 - [html5shiv](https://github.com/aFarkas/html5shiv)
 - [Respond.js](https://github.com/scottjehl/Respond)
-- [matchMedia.js](https://github.com/paulirish/matchMedia.js/)
+- [matchMedia.js](https://github.com/paulirish/matchMedia.js)
 
 Thanks
 -
 
-This project is inspired by the original [HTML5 Boilerplate](http://html5boilerplate.com/).
+This project is inspired by the original [HTML5 Boilerplate](http://html5boilerplate.com).
