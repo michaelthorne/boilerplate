@@ -3,14 +3,27 @@
 
 # TEAM
 
+    Michael Thorne -- Front-end Web Developer -- @mikkelz_za
     <name> -- <role> -- <twitter>
 
 # THANKS
 
+    Adam Kaplan -- @helloadamkaplan
+    Bootstrap -- @twbootstrap
+    Brad Frost -- @brad_frost
+    CSS-Tricks -- @Real_CSS_Tricks
+    Dave Olsen -- @dmolsen
     H5BP -- @h5bp
+    Harry Roberts -- @csswizardry
+    Jeffrey Zeldman -- @zeldman
+    John Resig -- @jeresig
+    Nicolas Gallagher -- @necolas
+    Paul Irish -- @paul_irish
+    Roger Johansson -- @rogerjohansson
+    Scott Jehl -- @scottjehl
 
 # SITE
 
-    Last Update: 2014/04/22
+    Last Update: 2014/05/20
     Standards: HTML5, CSS3
     Components: Font Awesome, jQuery, LESS, Normalize.css
