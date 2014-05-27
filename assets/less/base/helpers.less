@@ -18,7 +18,6 @@
  * FONT
  * .....Family
  * .....Weight
- * MEDIA
  * TEXT
  */
 
@@ -282,59 +281,6 @@
 .weight-bold      { font-weight: 700; }
 .weight-semi-bold { font-weight: 600; }
 .weight-normal    { font-weight: 400; }
-
-
-
-
-
-/* -------------------------------------------------------------------------- *\
-   $MEDIA
-\* -------------------------------------------------------------------------- */
-
-/**
- * Place any image and text content side-by-side, as per:
- * http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
- * E.g.:
- *
-   <div class="media">
-       <img src="http://placekitten.com/200/200" alt="" class="media__img" />
-       <p class="media__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-   </div>
- *
- */
-
-.media {
-    .clearfix();
-
-    /**
-     * Image
-     */
-
-    .media__img {
-        float: left;
-        margin-right: 1em;
-
-        /* Reverse image placement (right instead of left) */
-        &.media__img--rev {
-            float: right;
-            margin-right: 0;
-            margin-left: 1em;
-        }
-
-        img {
-            display: block;
-        }
-    }
-
-    /**
-     * Body
-     */
-
-    .media__body {
-        overflow: hidden;
-    }
-}
 
 
 
