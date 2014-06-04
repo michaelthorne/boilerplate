@@ -46,17 +46,17 @@ Features
 Components
 -
 
-- [Normalize.css](http://necolas.github.io/normalize.css)
-- [jQuery](http://jquery.com)
 - [Font Awesome](http://fontawesome.io)
+- [jQuery](http://jquery.com)
+- [Normalize.css](http://necolas.github.io/normalize.css)
 
 Polyfills
 -
 
 The following scripts are included for **IE9** and below:
 - [html5shiv](https://github.com/aFarkas/html5shiv)
-- [Respond.js](https://github.com/scottjehl/Respond)
 - [matchMedia.js](https://github.com/paulirish/matchMedia.js)
+- [Respond.js](https://github.com/scottjehl/Respond)
 
 Thanks
 -
