@@ -1,7 +1,8 @@
 HTML5 Boilerplate
 =
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![NPM Dependencies](https://david-dm.org/michaelthorne/boilerplate.png)](https://david-dm.org)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com)
 
 Requirements
 -
