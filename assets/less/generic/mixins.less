@@ -57,9 +57,9 @@
 
 .transform(@function) {
     -webkit-transform: @function;
-    -moz-transform: @function;
-    -o-transform: @function;
-    transform: @function;
+       -moz-transform: @function;
+         -o-transform: @function;
+            transform: @function;
 }
 
 
@@ -71,14 +71,14 @@
 \* -------------------------------------------------------------------------- */
 
 /**
- * Example Usage: .transition(color; 0.25s; ease-in-out; 0.25s);
+ * Example Usage: .transition(color 0.25s, opacity 0.25s;);
  */
 
-.transition(@property, @duration, @timing-function: ease, @delay: 0) {
-    -webkit-transition: @property @duration @timing-function @delay;
-    -moz-transition: @property @duration @timing-function @delay;
-    -o-transition: @property @duration @timing-function @delay;
-    transition: @property @duration @timing-function @delay;
+.transition(@transition) {
+    -webkit-transition: @transition;
+       -moz-transition: @transition;
+         -o-transition: @transition;
+            transition: @transition;
 }
 
 
