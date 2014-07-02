@@ -1,37 +1,11 @@
-/**
- * IMPORTS
- */
-
-@import "generic/mixins";
-@import "generic/reset";
-@import "generic/variables";
-@import "base/base";
-@import "base/grid";
-@import "base/helpers";
-@import "base/print";
-@import "objects/media";
-
-
-
-
-
-/**
- * STYLE
- */
-
 /* -------------------------------------------------------------------------- *\
    $TABLE OF CONTENTS
 \* -------------------------------------------------------------------------- */
 
 /**
- * ELEMENTS
- * .....Anchors
- * .....Headings
- * .....Horizontal Rule
- * CONTAINERS
- * .....Header
- * FORMS
- * .....Fieldset
+ * GENERIC
+ * BASE
+ * OBJECTS
  */
 
 
@@ -39,135 +13,34 @@
 
 
 /* -------------------------------------------------------------------------- *\
-   $ELEMENTS
+   $GENERIC
 \* -------------------------------------------------------------------------- */
 
-/* ==========================================================================
-   $Anchors
-   ========================================================================== */
-
-a {
-    color: @color-blue;
-    .transition(color .25s);
-
-    &:focus,
-    &:hover {
-        color: @color-navy;
-    }
-}
-
-
-
-
-
-/* ==========================================================================
-   $Headings
-   ========================================================================== */
-
-h1, .alpha {
-    .heading(@h1-font-size);
-}
-
-h2, .beta {
-    .heading(@h2-font-size);
-}
-
-h3, .gamma {
-    .heading(@h3-font-size);
-}
-
-h4, .delta {
-    .heading(@h4-font-size);
-}
-
-h5, .epsilon {
-    .heading(@h5-font-size);
-}
-
-h6, .zeta {
-    .heading(@h6-font-size);
-}
-
-/**
- * 1. Specify the `font-size` in pixels as per the value passed in.
- * 2. Calculate the `font-size` in ems based on the value in pixels.
- */
-
-.heading(@font-size) {
-    font-size: @font-size+0px; /* 1 */
-    font-size: (@font-size / @base-font-size) * 1em; /* 2 */
-    .line-height(@font-size);
-    margin-top: 0;
-    margin-bottom: 1em;
-}
-
-/**
- * Set the `line-height` to a multiple of @base-line-height
- * that is not smaller than @font-size, as per:
- * http://jsfiddle.net/redclover/mkYtY/
- */
-
-.line-height(@font-size) {
-    line-height: ceil(@font-size / @base-line-height) * (@base-line-height / @font-size);
-}
-
-
-
-
-
-/* ==========================================================================
-   $Horizontal Rule
-   ========================================================================== */
-
-hr {
-    border: 0;
-    border-top: 1px solid @color-silver;
-    display: block;
-    height: 1px;
-    margin: 1em 0;
-    padding: 0;
-}
+@import "generic/mixins";
+@import "generic/reset";
+@import "generic/variables";
 
 
 
 
 
 /* -------------------------------------------------------------------------- *\
-   $CONTAINERS
+   $BASE
 \* -------------------------------------------------------------------------- */
 
-/* ==========================================================================
-   $Header
-   ========================================================================== */
-
+@import "base/base";
+@import "base/grid";
+@import "base/headings";
+@import "base/helpers";
+@import "base/hr";
+@import "base/links";
+@import "base/print";
 
 
 
 
 /* -------------------------------------------------------------------------- *\
-   $FORMS
+   $OBJECTS
 \* -------------------------------------------------------------------------- */
 
-/* ==========================================================================
-   $Form
-   ========================================================================== */
-
-.form {
-
-}
-
-
-
-
-
-/* ==========================================================================
-   $Fieldset
-   ========================================================================== */
-
-fieldset {
-
-}
-
-
-
-
+@import "objects/media";
