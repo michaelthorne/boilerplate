@@ -24,12 +24,18 @@ less/
      base/
         base.less
         grid.less
+        headings.less
         helpers.less
+        hr.less
+        links.less
         print.less
      generic/
         mixins.less
         normalize.less
+        reset.less
         variables.less
+     objects/
+        media.less
      style.less
 ```
 
