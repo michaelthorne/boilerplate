@@ -13,7 +13,6 @@
     Brad Frost -- @brad_frost
     CSS-Tricks -- @Real_CSS_Tricks
     Dave Olsen -- @dmolsen
-    H5BP -- @h5bp
     Harry Roberts -- @csswizardry
     Jeffrey Zeldman -- @zeldman
     John Resig -- @jeresig
@@ -25,6 +24,6 @@
 
 # SITE
 
-    Last Update: 2014/05/20
+    Last Update: 2014/07/17
     Standards: HTML5, CSS3
     Components: Font Awesome, jQuery, LESS, Normalize.css
