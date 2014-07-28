@@ -6,7 +6,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "http://github.com/michaelthorne/boilerplate.git"
+        "url": "https://github.com/michaelthorne/boilerplate.git"
     },
     "devDependencies": {
         "grunt": "~0.4.5",
