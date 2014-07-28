@@ -26,4 +26,4 @@
 
     Last Update: 2014/07/17
     Standards: HTML5, CSS3
-    Components: Font Awesome, jQuery, LESS, Normalize.css
+    Components: Font Awesome, jQuery, Normalize.css
