@@ -36,20 +36,6 @@ module.exports = function (grunt)
                 }
             }
         },
-        pagespeed: {
-            options: {
-                nokey: true,
-                url: "https://developers.google.com"
-            },
-            build: {
-                options: {
-                    url: "http://127.0.0.1:1337",
-                    locale: "en",
-                    strategy: "desktop",
-                    threshold: 80
-                }
-            }
-        },
         validation: {
             files: {
                 src: ['*.html']
@@ -70,20 +56,12 @@ module.exports = function (grunt)
         }
     });
 
-    var defaultTasks = [
-        'csslint',
-        'jshint',
-        'less',
-        'validation'
-    ];
-
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-csslint');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-html-validation');
-    grunt.loadNpmTasks('grunt-pagespeed');
-    grunt.registerTask('default', defaultTasks);
+
     grunt.registerTask('serve', ['less', 'connect', 'watch']);
 };
