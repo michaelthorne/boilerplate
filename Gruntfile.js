@@ -8,7 +8,7 @@ module.exports = function (grunt)
                     hostname: '*',
                     livereload: true,
                     open: {
-                        target: 'http:127.0.0.1:1337'
+                        target: 'http://127.0.0.1:1337'
                     },
                     port: 1337,
                     useAvailablePort: true
