@@ -60,6 +60,6 @@ module.exports = function (grunt)
 
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('serve', ['less', 'connect', 'watch']);
     grunt.registerTask('default', ['serve']);
+    grunt.registerTask('serve', ['less', 'connect', 'watch']);
 };
