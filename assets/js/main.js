@@ -9,7 +9,19 @@
 
         init: function ()
         {
+            /*
+             * Check to see if the current browser supports DOM level 2 events e.g. `addEventListener`.
+             * Internet Explorer 8 and below does not.
+             * Based on: http://responsivenews.co.uk/post/18948466399/cutting-the-mustard
+             */
 
+            var isModernBrowser = ('addEventListener' in window) ? true : false;
+
+            /* ==========================================================================
+               Placeholder
+               ========================================================================== */
+
+            $('input, textarea').placeholder();
         }
     },
 
