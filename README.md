@@ -23,19 +23,23 @@ Ensure that the following are installed on your computer:
 less/
      base/
         base.less
+        forms.less
         grid.less
         headings.less
         helpers.less
         hr.less
         links.less
+        paragraphs.less
         print.less
      generic/
         mixins.less
-        normalize.less
         reset.less
         variables.less
      objects/
         media.less
+     vendor/
+        font-awesome.less
+        normalize.less
      style.less
 ```
 
@@ -50,9 +54,9 @@ less/
 
 ### Components
 
-- [Font Awesome](http://fontawesome.io)
-- [jQuery](http://jquery.com)
 - [Normalize.css](http://necolas.github.io/normalize.css)
+- [jQuery](http://jquery.com)
+- [Font Awesome](http://fontawesome.io)
 
 ### Polyfills
 
