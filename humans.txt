@@ -15,6 +15,6 @@
 
 # SITE
 
-    Last Update: 2014/10/23
+    Last Update: 2014/11/11
     Standards: HTML5, CSS3
     Components: Font Awesome, Grunt, jQuery, LESS, Normalize.css
