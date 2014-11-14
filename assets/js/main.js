@@ -3,7 +3,7 @@
  * Based on http://goo.gl/XtN0RS by Jason Garber
  * ======================================================================== */
 
- SITENAME = {
+SITENAME = {
 
     common: {
 
