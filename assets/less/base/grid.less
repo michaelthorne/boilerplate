@@ -3,7 +3,6 @@
 \* -------------------------------------------------------------------------- */
 
 .row {
-    margin-bottom: 5%;
     overflow: hidden;
 
     .col {
@@ -13,6 +12,10 @@
         &:last-child {
             margin-bottom: 0;
         }
+    }
+
+    &+ .row {
+        margin-top: 5%;
     }
 }
 
@@ -32,6 +35,10 @@
             /* Content first on narrow screens; right on wider screens */
             &.flow-opposite {
                 float: right;
+
+                &+ .col {
+                    margin-left: 0;
+                }
             }
 
             /* 1/6 */
