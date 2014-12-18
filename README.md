@@ -52,9 +52,9 @@ less/
 
 - **Breakpoints, Colors, Fonts**
     - `less/generic/variables.less`
-- **Clearfix, Fluid Embed, Font Utilities**
+- **Clearfix, Fluid Embeds, Text Utilities**
     - `less/base/helpers.less`
-- **Transform, Transition**
+- **Transforms, Transitions**
     - `less/generic/mixins.less`
 
 ### Components
