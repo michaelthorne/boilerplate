@@ -110,12 +110,10 @@
 
 /**
  * Hide visually and from screen readers:
- * http://juicystudio.com/article/screen-readers-display-none.php
  */
 
 .hidden {
     display: none !important;
-    visibility: hidden;
 }
 
 /**
@@ -180,7 +178,6 @@
 
     .hide--small {
         display: none !important;
-        visibility: hidden !important;
     }
 }
 
@@ -192,7 +189,6 @@
 
     .hide--medium {
         display: none !important;
-        visibility: hidden !important;
     }
 }
 
@@ -204,7 +200,6 @@
 
     .hide--large {
         display: none !important;
-        visibility: hidden !important;
     }
 }
 
@@ -247,8 +242,24 @@
    $FLOATS
 \* -------------------------------------------------------------------------- */
 
-.pull-left  { float: left !important; }
-.pull-right { float: right !important; }
+@media all and (min-width: @bp-small) {
+
+    /**
+     * Pull Right
+     */
+
+    .pull--right {
+        float: right !important;
+    }
+
+    /**
+     * Pull Left
+     */
+
+    .pull--left  {
+        float: left !important;
+    }
+}
 
 
 
@@ -262,7 +273,7 @@
    $Family
    ========================================================================== */
 
-.font-secondary { font-family: @font-secondary; }
+.font--secondary { font-family: @font-secondary; }
 
 
 
@@ -272,9 +283,9 @@
    $Weight
    ========================================================================== */
 
-.weight-bold      { font-weight: 700; }
-.weight-semi-bold { font-weight: 600; }
-.weight-normal    { font-weight: 400; }
+.weight--bold      { font-weight: 700; }
+.weight--semi-bold { font-weight: 600; }
+.weight--normal    { font-weight: 400; }
 
 
 
