@@ -14,18 +14,18 @@
 
 /**
  * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
+ * These selection rule sets have to be separate
+ * Customize the background color to match your design
  */
 
 ::-moz-selection {
-    background: @color-blue;
+    background: @color-black;
     color: @color-white;
     text-shadow: none;
 }
 
 ::selection {
-    background: @color-blue;
+    background: @color-black;
     color: @color-white;
     text-shadow: none;
 }
@@ -51,4 +51,8 @@ html {
     margin: 0;
     padding: 0.5em 0.75em;
     text-align: center;
+
+    a {
+        color: @color-blue;
+    }
 }
