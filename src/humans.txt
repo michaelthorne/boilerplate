@@ -10,11 +10,10 @@
 
     Bootstrap -- @twbootstrap
     CSS-Tricks -- @Real_CSS_Tricks
-    Foundation -- @zurbfoundation
     H5BP -- @h5bp
 
 # SITE
 
-    Last Update: 2014/11/11
+    Last Update: 2015/03/13
     Standards: HTML5, CSS3
     Components: Font Awesome, Grunt, jQuery, LESS, Normalize.css
