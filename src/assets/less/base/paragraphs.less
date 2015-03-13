@@ -3,18 +3,16 @@
 \* -------------------------------------------------------------------------- */
 
 p {
-    font-size: @text-medium;
     margin-top: 0;
-}
 
-.text--small {
-    font-size: @text-small;
-}
+    a {
+        color: @color-gray-dark;
+        text-decoration: underline;
+        .transition(color 0.25s);
 
-.text--medium {
-    font-size: @text-small;
-}
-
-.text--large {
-    font-size: @text-large;
+        &:focus,
+        &:hover {
+            color: @color-blue;
+        }
+    }
 }
