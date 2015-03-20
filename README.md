@@ -22,7 +22,7 @@ Ensure that the following is installed on your computer:
 2. CSS: `grunt csslint:build`
 3. JavaScript: `grunt jshint:build`
 
-### LESS Structure
+### Less Structure
 
 ```
 less/

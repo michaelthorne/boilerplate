@@ -16,4 +16,4 @@
 
     Last Update: 2015/03/13
     Standards: HTML5, CSS3
-    Components: Font Awesome, Grunt, jQuery, LESS, Normalize.css
+    Components: Font Awesome, Grunt, jQuery, Less, Normalize.css
